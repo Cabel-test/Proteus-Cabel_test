@@ -6,7 +6,7 @@
  (resolution mm 100000)
  (unit mm)
  (structure
-  (boundary (rect pcb -153.21400 -89.25160 113.67000 129.55160))
+  (boundary (rect pcb -153.21400 -91.63160 113.67000 129.55160))
   (boundary (path signal 0.20320 -112.50300 33.43620 -112.50300 -63.96380))
   (boundary (path signal 0.20320 -112.47660 -86.54300 113.19660 -86.54300 113.19660 88.02820
    -112.47660 88.02820 -112.47660 -86.54300))
@@ -145,12 +145,12 @@
   (component RESC2013X84_R9 (place R9 28.00000 29.50000 front 0))
   (component RESC2013X84_R12 (place R12 -74.40000 66.40000 front 270))
   (component RESC2013X84_R13 (place R13 -70.90000 66.40000 front -90))
-  (component SOD123_D1 (place D1 -39.20000 -81.70000 front 270))
+  (component SOD123_D1 (place D1 -35.80000 -81.80000 front 270))
   (component RESC2013X84_R5 (place R5 40.20000 -12.10000 front 270))
   (component SOD123_D2 (place D2 -85.30000 86.90000 front 270))
   (component RESC2013X84_R10 (place R10 -85.30000 79.40000 front 90))
-  (component SOD123_D7 (place D7 108.30000 -80.30000 front 270))
-  (component RESC2013X84_R6 (place R6 108.30000 -75.70000 front -90))
+  (component SOD123_D7 (place D7 108.30000 -81.40000 front 270))
+  (component RESC2013X84_R6 (place R6 108.30000 -71.60000 front -90))
   (component SOD123_D8 (place D8 -82.30000 86.90000 front 270))
   (component RESC2013X84_R11 (place R11 -82.30000 79.40000 front 90))
   (component "TBLOCK-I2_J24" (place J24 -108.08000 51.36000 front 0))
@@ -159,14 +159,14 @@
   (component SO28W_U16 (place U16 -14.46000 52.26000 front 0))
   (component SO28W_U17 (place U17 13.93000 -44.67000 front 180))
   (component DIL08_U18 (place U18 44.02000 3.10000 front 0))
-  (component RESC2013X84_R23 (place R23 -5.80000 42.70000 front 0))
-  (component RESC2013X84_R24 (place R24 -5.60000 -40.10000 front 180))
-  (component RESC2013X84_R25 (place R25 -5.50000 -42.80000 front 180))
-  (component RESC2013X84_R26 (place R26 -5.80000 46.40000 front 0))
-  (component RESC2013X84_R27 (place R27 105.64520 -52.98440 front 0))
-  (component RESC2013X84_R28 (place R28 59.00000 -57.70000 front 0))
-  (component RESC2013X84_R29 (place R29 -11.70000 -64.70000 front -90))
-  (component RESC2013X84_R30 (place R30 -40.90000 64.00000 front 180))
+  (component RESC2013X84_R23 (place R23 -5.43560 44.09440 front 0))
+  (component RESC2013X84_R24 (place R24 4.26720 -37.61740 front 180))
+  (component RESC2013X84_R25 (place R25 4.27900 -40.20920 front 180))
+  (component RESC2013X84_R26 (place R26 -5.43560 47.87900 front 0))
+  (component RESC2013X84_R27 (place R27 92.60180 -57.83580 back 0))
+  (component RESC2013X84_R28 (place R28 49.57420 -58.01360 back 0))
+  (component RESC2013X84_R29 (place R29 -21.15820 -64.69380 back 90))
+  (component RESC2013X84_R30 (place R30 -31.51480 64.61760 back -180))
   (component RESC2013X84_R31 (place R31 47.10000 64.80000 back -180))
   (component RESC2013X84_R32 (place R32 69.80000 64.80000 back 0))
   (component RESC2012X50_R33 (place R33 -37.60000 11.30000 back -180))
@@ -248,7 +248,7 @@
   (component 0805_C20 (place C20 -63.90000 -33.03360 front 90))
   (component 0805_C21 (place C21 -80.30000 49.30000 front 0))
   (component 0805_C22 (place C22 46.56640 17.80000 front 0))
-  (component 0805_C23 (place C23 -3.75920 48.69180 front 180))
+  (component 0805_C23 (place C23 -24.56180 49.14900 front 0))
   (component 0805_C24 (place C24 22.40000 -39.36640 front 270))
   (component 0805_C25 (place C25 -0.91440 -32.61360 front 270))
   (component 0805_C26 (place C26 -31.40000 40.76640 back -90))
@@ -275,8 +275,8 @@
   (component "CONN-SIL2_J28" (place J28 110.10000 -8.44000 front 90))
   (component "CONN-SIL2_J29" (place J29 110.00000 19.76000 front 90))
   (component RESC2012X50_R59 (place R59 59.80000 21.90000 front 0))
-  (component DIN3A_J30 (place J30 20.46000 -73.13000 front 0))
-  (component DIN3A_J34 (place J34 -106.71000 -73.15000 front 0))
+  (component DIN3A_J30 (place J30 20.46000 -76.23000 front 0))
+  (component DIN3A_J34 (place J34 -106.71000 -76.04560 front 0))
   (component "CONN-SIL2_J31" (place J31 15.26000 -68.80000 front 0))
   (component RESC2012X50_R60 (place R60 15.30000 31.30000 front 90))
   (component RESC2012X50_R77 (place R77 12.80000 31.30000 front 90))
@@ -307,6 +307,10 @@
   (component RESC2012X50_R131 (place R131 -37.68700 18.87220 back -180))
   (component RESC2012X50_R132 (place R132 -37.71240 16.25600 front 0))
   (component RESC2012X50_R133 (place R133 -37.78860 18.84680 front 0))
+  (component "CONN-SIL2_J38" (place J38 107.16000 -78.20000 front 0))
+  (component "CONN-SIL3_J37" (place J37 -40.79000 -79.11000 front 0))
+  (component SOD123_D10 (place D10 -40.87000 -81.81000 front 270))
+  (component RESC2013X84_R134 (place R134 40.50000 -1.60000 front 90))
  )
  (library
   (image "D-37-F-R_J9" (side front)
@@ -1667,25 +1671,25 @@
    (pin PS15 (rotate 0) 0 0.00000 0.00000)
    (pin PS15 (rotate 0) 1 2.00000 0.00000)
   )
-  (image RESC2013X84_R27 (side front)
+  (image RESC2013X84_R27 (side back)
    (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
-   (pin PS15 (rotate 0) 0 0.00000 0.00000)
-   (pin PS15 (rotate 0) 1 2.00000 0.00000)
+   (pin PS20 (rotate 0) 0 0.00000 0.00000)
+   (pin PS20 (rotate 0) 1 2.00000 0.00000)
   )
-  (image RESC2013X84_R28 (side front)
+  (image RESC2013X84_R28 (side back)
    (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
-   (pin PS15 (rotate 0) 0 0.00000 0.00000)
-   (pin PS15 (rotate 0) 1 2.00000 0.00000)
+   (pin PS20 (rotate 0) 0 0.00000 0.00000)
+   (pin PS20 (rotate 0) 1 2.00000 0.00000)
   )
-  (image RESC2013X84_R29 (side front)
+  (image RESC2013X84_R29 (side back)
    (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
-   (pin PS15 (rotate 0) 0 0.00000 0.00000)
-   (pin PS15 (rotate 0) 1 2.00000 0.00000)
+   (pin PS20 (rotate 0) 0 0.00000 0.00000)
+   (pin PS20 (rotate 0) 1 2.00000 0.00000)
   )
-  (image RESC2013X84_R30 (side front)
+  (image RESC2013X84_R30 (side back)
    (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
-   (pin PS15 (rotate 0) 0 0.00000 0.00000)
-   (pin PS15 (rotate 0) 1 2.00000 0.00000)
+   (pin PS20 (rotate 0) 0 0.00000 0.00000)
+   (pin PS20 (rotate 0) 1 2.00000 0.00000)
   )
   (image RESC2013X84_R31 (side back)
    (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
@@ -2464,6 +2468,27 @@
    (pin PS15 (rotate 0) 0 0.00000 0.00000)
    (pin PS15 (rotate 0) 1 2.00000 0.00000)
   )
+  (image "CONN-SIL2_J38" (side front)
+   (outline (rect TOP -1.37160 -1.37160 3.91160 1.37160))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+  )
+  (image "CONN-SIL3_J37" (side front)
+   (outline (rect TOP -1.37160 -1.37160 6.45160 1.37160))
+   (pin PS7 (rotate 0) 0 0.00000 0.00000)
+   (pin PS7 (rotate 0) 1 2.54000 0.00000)
+   (pin PS7 (rotate 0) 2 5.08000 0.00000)
+  )
+  (image SOD123_D10 (side front)
+   (outline (rect TOP -0.44450 -0.80160 3.84450 0.80160))
+   (pin PS19 (rotate 0) 0 0.00000 0.00000)
+   (pin PS19 (rotate 0) 1 3.40000 0.00000)
+  )
+  (image RESC2013X84_R134 (side front)
+   (outline (rect TOP -0.77500 -1.02500 2.77500 1.02500))
+   (pin PS15 (rotate 0) 0 0.00000 0.00000)
+   (pin PS15 (rotate 0) 1 2.00000 0.00000)
+  )
   (padstack PS0 (absolute on)
    (shape (circle TOP 6.35000 0 0))
    (shape (circle I1 6.35000 0 0))
@@ -2874,14 +2899,14 @@
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
-   (pins D1-0 R5-1)
+   (pins D1-0 R5-1 J37-2)
   )
   (net "#00118"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
-   (pins D7-0 R6-1)
+   (pins D7-0 R6-1 J38-1)
   )
   (net "#00125"
    (circuit
@@ -3198,201 +3223,215 @@
    )
    (pins U18-5 R38-1)
   )
-  (net "#00912"
+  (net "#00900"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins U19-5 U19-6 R134-0)
+  )
+  (net "#00911"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-2 R65-1 R66-0)
   )
-  (net "#00913"
+  (net "#00912"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-1 R67-0 R68-1 C28-0)
   )
-  (net "#00914"
+  (net "#00913"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-0 R67-1 R69-0 C28-1)
   )
-  (net "#00917"
+  (net "#00916"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins C4-1 R68-0)
   )
-  (net "#00920"
+  (net "#00919"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-4 R70-1 R71-0)
   )
-  (net "#00921"
+  (net "#00920"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-5 R72-0 R73-1 C8-0)
   )
-  (net "#00922"
+  (net "#00921"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U20-6 R72-1 R74-0 C8-1)
   )
-  (net "#00925"
+  (net "#00924"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins C5-1 R73-0)
   )
-  (net "#00928"
+  (net "#00927"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-2 R75-1 R76-0)
   )
-  (net "#00929"
+  (net "#00928"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-1 R91-0 R92-1 C9-0)
   )
-  (net "#00930"
+  (net "#00929"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-0 R91-1 R103-0 C9-1)
   )
-  (net "#00933"
+  (net "#00932"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins C6-1 R92-0)
   )
-  (net "#00936"
+  (net "#00935"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-4 R104-1 R105-0)
   )
-  (net "#00937"
+  (net "#00936"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-5 R106-0 R107-1 C15-0)
   )
-  (net "#00938"
+  (net "#00937"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U21-6 R106-1 R108-0 C15-1)
   )
-  (net "#00941"
+  (net "#00940"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins C7-1 R107-0)
   )
-  (net "#00944"
+  (net "#00943"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins J25-1 J34-0)
   )
-  (net "#00960"
+  (net "#00959"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins Q1-1 R118-1)
   )
-  (net "#00961"
+  (net "#00960"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins RL1-1 Q1-2)
   )
-  (net "#01014"
+  (net "#01013"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins C3-1 J30-1)
   )
-  (net "#01050"
+  (net "#01049"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins J30-0 J31-1)
   )
-  (net "#01068"
+  (net "#01067"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins D3-0 R122-0)
   )
-  (net "#01069"
+  (net "#01068"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins D5-0 R123-0)
   )
-  (net "#01070"
+  (net "#01069"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins D6-0 R124-0)
   )
-  (net "#01071"
+  (net "#01070"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins D9-0 R125-0)
   )
-  (net "#01078"
+  (net "#01077"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U23-8 R128-1)
   )
-  (net "#01079"
+  (net "#01078"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U23-9 R129-1)
   )
-  (net "#01086"
+  (net "#01085"
    (circuit
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
    (pins U23-5 R130-1)
+  )
+  (net "#01100"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via $VIA_SIGNAL)
+   )
+   (pins J37-0 D10-0 R134-1)
   )
   (net "+12V"
    (circuit
@@ -4903,7 +4942,8 @@
      U20-3 R65-0 R70-0 U21-3 R75-0 R104-0 J25-0 Q1-0 C17-1 C18-1 C19-1 C20-1 C21-1 C22-1
      C23-1 C24-1 C25-1 C26-1 C27-1 C29-1 C30-1 C31-1 C32-1 C33-1 C35-1 C36-1 C37-1 C38-1
      C39-1 C40-1 C42-1 SW1-0 SW1-2 SW1-3 U22-2 U22-6 J26-3 J27-1 C43-1 J32-2 J33-2 J30-2
-    J34-2 J31-0 U23-3 U23-10 U23-11 U23-13 D3-1 D5-1 D6-1 D9-1 J35-2 J36-2)
+     J34-2 J31-0 U23-3 U23-10 U23-11 U23-13 D3-1 D5-1 D6-1 D9-1 J35-2 J36-2 J38-0 J37-1
+    D10-1)
   )
   (net "LED_A"
    (circuit
@@ -5197,7 +5237,7 @@
     (use_layer TOP BOT)
     (use_via $VIA_SIGNAL)
    )
-   (pins J5-4 U1-24)
+   (pins J5-4 U1-24 U19-4)
   )
   (net "PWM13"
    (circuit
@@ -5527,34 +5567,36 @@
    "#00891"
    "#00894"
    "#00896"
+   "#00900"
+   "#00911"
    "#00912"
    "#00913"
-   "#00914"
-   "#00917"
+   "#00916"
+   "#00919"
    "#00920"
    "#00921"
-   "#00922"
-   "#00925"
+   "#00924"
+   "#00927"
    "#00928"
    "#00929"
-   "#00930"
-   "#00933"
+   "#00932"
+   "#00935"
    "#00936"
    "#00937"
-   "#00938"
-   "#00941"
-   "#00944"
+   "#00940"
+   "#00943"
+   "#00959"
    "#00960"
-   "#00961"
-   "#01014"
-   "#01050"
+   "#01013"
+   "#01049"
+   "#01067"
    "#01068"
    "#01069"
    "#01070"
-   "#01071"
+   "#01077"
    "#01078"
-   "#01079"
-   "#01086"
+   "#01085"
+   "#01100"
    "+12V"
    "+3.3V"
    "1A1"
@@ -5940,18 +5982,14 @@
   )
    (wire (path TOP 0.20320 7.63000 1.22000 7.64274 1.23274) (net "GND") (type protect)
   )
-   (wire (path TOP 0.38100 -30.21120 21.38760 -27.67120 21.38760) (net "GND") (type protect)
+   (wire (path TOP 0.38100 -27.67120 21.38760 -30.21120 21.38760) (net "GND") (type protect)
   )
    (wire (path TOP 0.50800 22.86000 26.33000 25.40000 26.33000) (net "GND") (type protect)
   )
-   (wire (path TOP 0.30480 -36.92403 32.47415 -36.92403 28.10043 -30.21120 21.38760)
-   (net "GND") (type protect))
    (wire (path TOP 0.38100 21.03120 21.38760 21.03120 20.72640) (net "GND") (type protect)
   )
    (wire (path TOP 0.38100 -27.67120 21.38760 21.03120 21.38760) (net "GND") (type protect)
   )
-   (wire (path TOP 0.38100 39.61460 -21.72160 39.61460 -23.70192 42.73508 -26.82240 48.47252 -26.82240
-   48.47597 -26.82585) (net "GND") (type protect))
    (wire (path TOP 0.30480 18.83000 8.42000 18.82874 8.42126 18.82874 10.18144 19.45436 10.80706
    26.95036 10.80706) (net "+5V") (type protect))
    (wire (path TOP 0.30480 21.28937 -2.84480 21.28937 -1.36743 21.86940 -0.78740 22.28070 -0.78740
@@ -6534,9 +6572,6 @@
   (via PS0 100.39700 -63.56380 (net "GND") (type protect))
   (via PS0 100.39700 65.43620 (net "GND") (type protect))
   (via PS0 -99.70300 65.23620 (net "GND") (type protect))
-  (via PS0 -36.92403 32.47415 (net "GND") (type protect))
-  (via PS0 -37.02403 -26.82585 (net "GND") (type protect))
-  (via PS0 48.47597 -26.82585 (net "GND") (type protect))
   (via PS0 0.39624 65.43548 (net "GND") (type protect))
   (via PS32 17.62049 -11.35437 (net "ADC4"))
   (via PS32 13.32528 -10.94094 (net "ADC14"))
